@@ -1,4 +1,9 @@
-My program receives an array of strings and sorts them lexiographically.
+My program will compare 5 sorting algorithms: selection sort, insertion sort, heapsort,
+merge sort, and quicksort. The program will be sorting words/strings by lexicographic order.
+For each algorithm, the program will count the number of comparisons taken, and record time
+spent in milliseconds for each sorting algorithm. Only direct comparisons among words are to be
+counted.
+
 
 Project5.java:
 This is the entrance to the program. All classes containing sorting algorithms get called from this
