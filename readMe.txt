@@ -1,3 +1,4 @@
+PROGRAM OVERVIEW
 My program will compare 5 sorting algorithms: selection sort, insertion sort, heapsort,
 merge sort, and quicksort. The program will be sorting words/strings by lexicographic order.
 For each algorithm, the program will count the number of comparisons taken, and record time
@@ -5,6 +6,13 @@ spent in milliseconds for each sorting algorithm. Only direct comparisons among 
 counted.
 
 
+INPUT:
+The input format of this program is that the first line will be an integer indicating the number
+of words to be sorted. Then, beginning from the second line, words are listed, and each line only
+contains one word
+
+
+CLASS BREAKDOWN
 Project5.java:
 This is the entrance to the program. All classes containing sorting algorithms get called from this
 class. The Project5.java class also handles the timing of runtime of each individual algorithm.
